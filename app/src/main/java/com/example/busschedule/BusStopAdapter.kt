@@ -1,6 +1,5 @@
 package com.example.busschedule
 
-import Schedule
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -8,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.busschedule.databinding.BusStopItemBinding
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.DiffUtil
+import com.example.busschedule.database.schedule.Schedule
 import java.text.SimpleDateFormat
 import java.util.Date
 
