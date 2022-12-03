@@ -1,11 +1,11 @@
-package com.example.busschedule.database.schedule
+package com.example.busschedule.database
 
-import Schedule
-import ScheduleDao
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.busschedule.database.schedule.Schedule
+import com.example.busschedule.database.schedule.ScheduleDao
 
 @Database(entities = arrayOf(Schedule::class), version = 1)
 abstract class AppDatabase : RoomDatabase() {
